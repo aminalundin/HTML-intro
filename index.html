@@ -1,81 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fåglar</title>
 </head>
+
 <body>
-    
-<h1>Fåglar</h1>
 
-<p>
-    Här kommer en onumrerad lista på olika småfåglar:
-</p>
+    <h1>Fåglar</h1>
 
-<ul>
-<li>Talgoxe
-    <li>Domherre</li>
-    <li>Pilfink</li>
-</li>
+    <p>
+        Här kommer en onumrerad lista på olika småfåglar:
+    </p>
 
-</ul>
-
-<p>
-    En numrerad lista på fler fåglar:
-</p>
-
-<ol><li>Blåmes</li>
-<li>Grönfink</li>
-<li>Svartmes</li>
-</ol>
-
-<!-- ibland vill man skapa ett innehåll som innehåller flera reder av test -->
-<hr>
-
-<ul>
-    <li>
-<h3>Koltrast</h3>
-<p>
-    En koltrast kan kännas igen på bl.a. lätet - fågelsången
-</p>
-    </li>
-<li>
-<h3>Stare</h3>
-<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero placeat nulla error aut earum, consectetur quos at quis atque tenetur officiis est id accusamus, veritatis quia illo. Deleniti, voluptatem odit?
-
-</p>
-</li>
-</ul>
-
-<!-- en lista kan ha flera olika nivåer -->
-
-<ul>
-    <li>Sparvar
     <ul>
-    <li>Gråsparv
-        <ul>
-            <li>I staden</li>
-            <li>På landet</li>
-            <li>Utanför mitt cafe</li>
-        </ul>
-    </li>
-    <li>Gulsparv</li>
-        </ul>
-    </li>
-    <li>Finkar
-        <ul>
-        <li>Grönfink</li>
-        <li>Svartfink</li>
-        <li>Blåfink</li>
+        <li>Talgoxe
+        <li>Domherre</li>
+        <li>Pilfink</li>
+        </li>
+
     </ul>
-    </li>
-    <li>Mesar
-        <ul>
+
+    <p>
+        En numrerad lista på fler fåglar:
+    </p>
+
+    <ol>
+        <li>Blåmes</li>
+        <li>Grönfink</li>
         <li>Svartmes</li>
-        </ul>
-    </li>
-</ul>
+    </ol>
+
+    <!-- ibland vill man skapa ett innehåll som innehåller flera reder av test -->
+    <hr>
+
+    <ul>
+        <li>
+            <h3>Koltrast</h3>
+            <p>
+                En koltrast kan kännas igen på bl.a. lätet - fågelsången
+            </p>
+        </li>
+        <li>
+            <h3>Stare</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero placeat nulla error aut earum, consectetur
+                quos at quis atque tenetur officiis est id accusamus, veritatis quia illo. Deleniti, voluptatem odit?
+
+            </p>
+        </li>
+    </ul>
+
+    <!-- en lista kan ha flera olika nivåer -->
+
+    <ul>
+        <li>Sparvar
+            <ul>
+                <li>Gråsparv
+                    <ul>
+                        <li>I staden</li>
+                        <li>På landet</li>
+                        <li>Utanför mitt cafe</li>
+                    </ul>
+                </li>
+                <li>Gulsparv</li>
+            </ul>
+        </li>
+        <li>Finkar
+            <ul>
+                <li>Grönfink</li>
+                <li>Svartfink</li>
+                <li>Blåfink</li>
+            </ul>
+        </li>
+        <li>Mesar
+            <ul>
+                <li>Svartmes</li>
+            </ul>
+        </li>
+    </ul>
+
+    <!-- lägga till olika typer av mediainnehåll, ex bild, ljud, video -->
+
+    <h3>Om koltrasten</h3>
+    <p>
+        Så låter Turdus Merula
+    </p>
+
+    <!-- ett ljudklipp från en koltrast -->
+    <!-- ett ljud kan spelas med elementet audio -->
+    <!-- för att få spelkontroller till audio elementet anges attributet 'controls' -->
+
+
+    <!-- en absolut sökväg -->
+
+
+    <!-- filer som du inte själv äger kan du inte vidare använda på en webbplats
+ett bra sätt att organisera olika typer av gallerier är att använda elementet figure med tillhörande figcaption  -->
+
+    <h4>
+        Ljudfiler
+    </h4>
+    <figure>
+        <audio src="audio/Turdus_merula_-_Common_Blackbird_XC541784.mp3" controls></audio>
+
+        <figcaption>
+            <a href="https://commons.wikimedia.org/wiki/File:Turdus_merula_-_Common_Blackbird_XC541784.mp3">Benoît Van
+                Hecke</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia
+            Commons
+        </figcaption>
+    </figure>
+    <figure>
+        <audio src="https://upload.wikimedia.org/wikipedia/commons/8/89/Turdus_merula_-_Common_Blackbird_XC541201.mp3"
+            controls></audio>
+        <figcaption><a
+                href="https://commons.wikimedia.org/wiki/File:Turdus_merula_-_Common_Blackbird_XC541201.mp3">Benoît Van
+                Hecke</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia
+            Commons</figcaption>
+    </figure>
+
+<!-- en sidas innehåll kan delas in i olika element som har betydelse - semantiska elements -->
+<!-- ex: header, footer, navigation (nav), article, main, aside ...struktur element -->
 
 </body>
+
 </html>
