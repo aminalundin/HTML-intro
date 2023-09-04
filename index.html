@@ -22,7 +22,7 @@
         </li>
 
     </ul>
-
+    <hr>
     <p>
         En numrerad lista på fler fåglar:
     </p>
@@ -53,7 +53,7 @@
     </ul>
 
     <!-- en lista kan ha flera olika nivåer -->
-
+    <hr>
     <ul>
         <li>Sparvar
             <ul>
@@ -82,6 +82,7 @@
     </ul>
 
     <!-- lägga till olika typer av mediainnehåll, ex bild, ljud, video -->
+    <hr>
 
     <h3>Om koltrasten</h3>
     <p>
@@ -99,29 +100,61 @@
     <!-- filer som du inte själv äger kan du inte vidare använda på en webbplats
 ett bra sätt att organisera olika typer av gallerier är att använda elementet figure med tillhörande figcaption  -->
 
-    <h4>
-        Ljudfiler
-    </h4>
-    <figure>
-        <audio src="audio/Turdus_merula_-_Common_Blackbird_XC541784.mp3" controls></audio>
+    <!-- ett exempel på ett semantiskt omslutande element är section -->
+    <section>
 
-        <figcaption>
-            <a href="https://commons.wikimedia.org/wiki/File:Turdus_merula_-_Common_Blackbird_XC541784.mp3">Benoît Van
-                Hecke</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia
-            Commons
-        </figcaption>
-    </figure>
-    <figure>
-        <audio src="https://upload.wikimedia.org/wikipedia/commons/8/89/Turdus_merula_-_Common_Blackbird_XC541201.mp3"
-            controls></audio>
-        <figcaption><a
-                href="https://commons.wikimedia.org/wiki/File:Turdus_merula_-_Common_Blackbird_XC541201.mp3">Benoît Van
-                Hecke</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia
-            Commons</figcaption>
-    </figure>
+        <h4>
+            Ljudfiler
+        </h4>
+        <figure>
+            <audio src="audio/Turdus_merula_-_Common_Blackbird_XC541784.mp3" controls></audio>
 
-<!-- en sidas innehåll kan delas in i olika element som har betydelse - semantiska elements -->
-<!-- ex: header, footer, navigation (nav), article, main, aside ...struktur element -->
+            <figcaption>
+                <a href="https://commons.wikimedia.org/wiki/File:Turdus_merula_-_Common_Blackbird_XC541784.mp3">Benoît
+                    Van
+                    Hecke</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia
+                Commons
+            </figcaption>
+        </figure>
+
+        <figure>
+            <audio
+                src="https://upload.wikimedia.org/wikipedia/commons/8/89/Turdus_merula_-_Common_Blackbird_XC541201.mp3"
+                controls></audio>
+            <figcaption><a
+                    href="https://commons.wikimedia.org/wiki/File:Turdus_merula_-_Common_Blackbird_XC541201.mp3">Benoît
+                    Van
+                    Hecke</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia
+                Commons</figcaption>
+        </figure>
+    </section>
+
+    <section>
+        <h4>Videoklipp</h4>
+        <!-- ett filmklipp kan visas med elementet video -->
+
+        <figure>
+            <video src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Turdus_merula_singing.webm" width="300"
+                height="200" controls></video>
+            <figcaption><a href="https://commons.wikimedia.org/wiki/File:Turdus_merula_singing.webm">Larske</a>, <a
+                    href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
+            </figcaption>
+        </figure>
+
+        <figure>
+            <video src="video/Чёрный_дрозд._Amsel_(Turdus_merula)_oder_Schwarzdrossel_in_Sachsen_2H1A5695.webm" width="300" height="200" controls></video>
+            <figcaption><a href="https://commons.wikimedia.org/wiki/File:%D0%A7%D1%91%D1%80%D0%BD%D1%8B%D0%B9_%D0%B4%D1%80%D0%BE%D0%B7%D0%B4._Amsel_(Turdus_merula)_oder_Schwarzdrossel_in_Sachsen_2H1A5695.webm">Kora27</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons</figcaption>
+        </figure>
+    </section>
+
+    <!-- ett galleri med videoklipp -->
+
+
+
+    <!-- en sidas innehåll kan delas in i olika element som har betydelse - semantiska elements -->
+    <!-- ex: header, footer, navigation (nav), article, main, aside ...struktur element -->
+
+
 
 </body>
 
